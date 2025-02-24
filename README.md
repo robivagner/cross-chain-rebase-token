@@ -20,7 +20,7 @@ cd cross-chain-rebase-token
 
 ## Testing
 
-There are 2 files of testing. The RebaseToken.t.sol file is mostly fuzz tests beside 1 which doesnt need to be a fuzz and the CrossChain.t.sol is basically a big test that bridges tokens over ethereum sepolia to arbitrum sepolia. If you would like to try testing the "testBridgeAllTokens" in the CrossChain.t.sol file you would need to paste your rpc urls for eth sepolia and for arb sepolia(use alchemy's site to get them).
+There are 2 files of testing. The RebaseToken.t.sol file is mostly fuzz tests beside 1 which doesnt need to be a fuzz and the CrossChain.t.sol is basically a big test that bridges tokens over ethereum sepolia to arbitrum sepolia. If you would like to try testing the "testBridgeAllTokens" in the CrossChain.t.sol file you would need to paste your rpc urls for eth sepolia and for arb sepolia(use alchemy's site to get them) between the blank "" in the foundry.toml file.
 
 For running every test
 ```
